@@ -1,0 +1,4326 @@
+
+
+h5 {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.fCheck{
+        margin-bottom: 5px;
+}
+
+.FFieldGroup{
+    flex-wrap: wrap;
+}
+label{
+        display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#inputGroup{
+        font-size: 100%;
+    font-family: inherit;
+    height: 2.1em;
+    line-height: 1.5;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    width: 100%;
+    padding: .3em .6em;
+    box-sizing: border-box;
+    opacity: 0;
+    width: 0;
+    position: absolute;
+    display: inline-block;
+    height: auto;
+}
+
+ul{
+    padding: 0;
+}
+
+li.item{
+        margin-left: -13px;
+}
+.next-group{
+  display: inline-block;
+    float: left;
+}
+
+.prev-group{
+      display: inline-block;
+    float: left;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.control-panel{
+      vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+        margin: 0px;
+    padding: 0px;
+}
+
+.control-panel>li:first-child {
+    border-top-right-radius: 0;
+}
+
+.field-control {
+    cursor: move;
+    list-style: none;
+    margin: -1px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.field-control button {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.panels{
+  height: 135px;
+}
+
+.panels{
+    {
+    height: 116.313px;
+    transform: translateX(0px);
+}
+}
+
+
+.rowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 0;
+        background: none;
+}
+
+
+
+.vertical{
+        margin-top: -24px;
+    margin-left: -1px;
+}
+
+.FPanelWrap .panels {
+    white-space: nowrap;
+    transition-property: transform,height;
+    transition-duration: .15s;
+    transition-timing-function: ease-in-out;
+    will-change: transform;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.fieldActions {
+    box-shadow: -1px 1px 1px #ccc;
+    border-color: #93c54b;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.rowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.rowEdit {
+    padding-top: 2rem;
+}
+
+.groupConfig {
+    display: none;
+    padding: .5rem;
+}
+
+.stageColumn {
+    transition: background-color 125ms ease-in-out,box-shadow 125ms,width .25s;
+    position: relative;
+    background-color: #fff;
+    max-width: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    will-change: width;
+}
+
+.stageColumn:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stageColumn:first-of-type {
+    border-top-right-radius: 5px;
+}
+
+
+.stageColumn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.stageRow:after {
+    content: "";
+    display: table;
+}
+
+.stageColumn:after {
+    color: #333!important;
+    line-height: 1em;
+    opacity: 1;
+    font-size: 1.1em;
+    content: attr(data-col-width)!important;
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-top: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.stageColumn:before,.stageRow:before {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    width: 0;
+    padding: 0;
+    height: 22px;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100;
+    transition-property: width;
+    transition-duration: .15s;
+    content: attr(data-hover-tag);
+    background-color: #fff;
+}
+
+.columnsActions {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    right: 50%;
+    transform: translateX(12px);
+    z-index: 1;
+    transition: width .15s;
+}
+
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.columnsActions button{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stageColumn .resizeXHandle {
+    display: none;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    z-index: 2;
+    cursor: ew-resize;
+}
+
+
+input[type=radio]+.checkable:before {
+    background: #fff;
+    border: 1px solid #666;
+}
+
+
+input[type=radio]+.checkable:after {
+    content: "\2714";
+    background: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.15em;
+    color: #000;
+}
+
+.stageFields {
+    min-height: 26px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 125ms ease-in-out;
+}
+
+
+.editing-rows {
+    display: table-cell !important;
+    border-radius: 5px !important;
+    height: 60px !important;
+    background-color: #e6e6e6 !important;
+        width: 34%;
+}
+
+
+
+.fieldActions {
+    right: 0;
+    text-align: right;
+    transition: width .15s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    will-change: width;
+}
+
+.fieldEdit {
+    display: none;
+    position: relative;
+    opacity: 1;
+    height: 14.15px;
+    overflow: hidden;
+    min-height: 0px;
+}
+
+.fieldEditing {
+    display: block !important;
+    position: relative;
+    opacity: 1;
+    height: auto;
+    overflow: hidden;
+    min-height: 0px;
+}
+
+.panel-nav {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav button.prev-group {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.panel-labels h5.active-tab {
+    color: #000;
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
+nav button {
+    position: absolute;
+    width: 24px;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.panel-labels {
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-labels div {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+button.next-group {
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tabbed-panels .panels {
+    transition: none;
+}
+
+.Fpanel {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+}
+
+.Fpanel {
+    background-color: #fff;
+}
+
+.propWrapper {
+    position: relative;
+    padding-right: 31px;
+    margin-bottom: 10px;
+    min-height: 28px;
+}
+
+#sideActions.item-handle{
+
+}
+
+#sideActions.item_editToggle{
+
+}
+
+#sideActions.item_clone{
+
+}
+
+#sideActions.item_remove{
+
+}
+
+
+#midActions.item-handle{
+
+}
+
+#midActions.item_editToggle{
+
+}
+
+#midActions.item_clone{
+
+}
+
+#midActions.item_remove{
+
+}
+
+#endActions.item-handle{
+
+}
+
+#endActions.item_editToggle{
+
+}
+
+#endActions.item_clone{
+
+}
+
+#endActions.item_remove{
+
+}
+
+.propControls, .field-edit .propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.propControls {
+    width: 28px;
+    height: 28px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.prop-inputs, .field-edit .prop-inputs .Ffield-group {
+    width: 100%;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.panelActionButtons [class^=add-] {
+    float: right;
+}
+
+
+.stageRow {
+    transition: background-color 125ms ease-in-out;
+    position: relative;
+    clear: both;
+    margin-left: 0;
+    margin-bottom: 6px;
+    background-color: #fff;
+    padding: 5px;
+    min-height: 34px;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+
+.stageRow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.hovering-field{box-shadow:inset 0 0 0 1px #93c54b}
+.stageHover{
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    width: 13%;
+    padding: 0;
+    height: 22px;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100;
+    transition-property: width;
+    transition-duration: .15s;
+    content: attr(data-hover-tag);
+    background-color: #fff;
+}
+
+ul#droppable {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.fBtnGroup>button:first-child {
+    margin-left: 0;
+}
+
+.fBtnGroup>button {
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+
+button {
+    line-height: 1.5em;
+}
+
+button {
+    border-radius: 3px;
+    border: 1px solid #666;
+    color: #333;
+    background-color: #fff;
+    padding: .5em 1em;
+}
+
+.stageRow:after {
+    content: "";
+    display: table;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.stageRow:before {
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    width: 0;
+    padding: 0;
+    height: 22px;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100;
+    transition-property: width;
+    transition-duration: .15s;
+    content: attr(data-hover-tag);
+    background-color: #fff;
+}
+
+.sideactionBtnWrapper .icon-move-vertical {
+    display: block;
+}
+
+button:hover{filter:brightness(.9)}
+
+.sideactionBtnWrapper .svg-icon {
+    width: 20px;
+    height: 22px;
+    display: block;
+}
+
+.midgroupActions .icon-move-vertical {
+    display: block;
+}
+
+.midgroupActions .svg-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.endgroupActions .icon-move-vertical {
+    display: block;
+}
+
+.endgroupActions .svg-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.svg-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+}
+
+ .item-handle .icon-handle {
+    transform: rotate(90deg);
+}
+
+.sidegroupActions .icon-handle {
+    opacity: .5;
+}
+
+.midrowActions .item-handle .icon-handle {
+    transform: rotate(90deg);
+}
+
+.midgroupActions .icon-handle {
+    opacity: .5;
+}
+
+.endrowActions .item-handle .icon-handle {
+    transform: rotate(90deg);
+}
+
+.endgroupActions .icon-handle {
+    opacity: .5;
+}
+
+.hovering-row .rowActions{z-index:10}
+
+.hovering-row .rowActions{border:1px solid #325d88}
+
+
+@media screen and (min-width: 480px){
+
+
+
+h5 {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.next-group{
+  display: inline-block;
+    float: left;
+}
+
+.prev-group{
+      display: inline-block;
+    float: left;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.control-panel{
+      vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+        margin: 0px;
+    padding: 0px;
+}
+
+.control-panel>li:first-child {
+    border-top-right-radius: 0;
+        right: 0;
+}
+
+.columnsActions li:nth-of-type(2) {
+    right: 24px;
+}
+
+.columnsActions li:nth-of-type(3) {
+    right: 48px;
+}
+
+
+.field-control {
+    cursor: move;
+    list-style: none;
+    margin: -1px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.field-control button {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.field-control li {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.panels{
+  height: 135px;
+}
+
+
+
+
+.sidegroupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.sidegroupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.sidegroupActions li {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+
+
+.midrowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.midgroupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.midgroupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.midrowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.midgroupActions li {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.midrowActions li {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.endrowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.endgroupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.endgroupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.endrowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.endgroupActions li {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.endrowActions li {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.rowEditing{
+    display: block !important;
+    overflow: visible;
+    height: auto;
+    min-height: 0px;
+}
+
+.group-config{
+
+}
+.rowEdit{
+    display: none;
+    overflow: visible;
+    height: 22.69px;
+    min-height: 0px;
+}
+.rowEdit {
+    padding-top: 2rem;
+}
+
+.groupConfig {
+    display: none;
+    padding: .5rem;
+}
+
+.stageColumn {
+    transition: background-color 125ms ease-in-out,box-shadow 125ms,width .25s;
+    position: relative;
+    background-color: #fff;
+    max-width: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    will-change: width;
+}
+
+.stageColumn:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stageColumn:first-of-type {
+    border-top-right-radius: 5px;
+}
+
+
+.stageColumn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.columnsActions {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    right: 50%;
+    transform: translateX(12px);
+    z-index: 1;
+    transition: width .15s;
+}
+
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.columnsActions button{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stageColumn .resizeXHandle {
+    display: none;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    z-index: 2;
+    cursor: ew-resize;
+}
+
+.stageFields {
+    min-height: 26px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 125ms ease-in-out;
+}
+
+.fieldActions {
+    right: 0;
+    text-align: right;
+    transition: width .15s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    will-change: width;
+}
+
+.fieldEdit {
+    margin-top: 23px;
+    display: none;
+    overflow: hidden;
+}
+
+.panel-nav {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav button.prev-group {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+nav button {
+    position: absolute;
+    width: 24px;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.panel-labels {
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-labels div {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+button.next-group {
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tabbed-panels .panels {
+    transition: none;
+}
+
+.Fpanel {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+}
+
+.Fpanel {
+    background-color: #fff;
+}
+
+.propWrapper {
+    position: relative;
+    padding-right: 31px;
+    margin-bottom: 10px;
+    min-height: 28px;
+}
+
+
+.propControls, .field-edit .propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.propControls {
+    width: 28px;
+    height: 28px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.prop-inputs, .field-edit .prop-inputs .Ffield-group {
+    width: 100%;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.panelActionButtons [class^=add-] {
+    float: right;
+}
+
+
+       .mid {
+    height: 250px;
+}
+
+.ui-widget-header {
+    list-style: none;
+}
+
+
+
+.ui-draggable-handle {
+    float: left;
+    padding: 4px 7px 3px 0px;
+    cursor: pointer;
+    border: 1px solid #cf7cea;
+}
+
+.drop{
+  border:2px dotted #0B85A1;
+}
+
+.dropping{
+border:2px solid #0B85A1 !important;
+}
+
+.column_drop{
+      min-height: 50px;
+    border: 1px solid green;
+}
+
+#col12:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 12";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col11:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 11";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col10:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 10";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col9:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 9";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col8:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 8";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col7:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 7";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col6:after {
+    border: 1px solid #3c8e21e8;
+    border-radius: 4px 0 4px 0;
+    color: #144a92;
+    content: "Column 6";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    min-height: 50px;
+
+}
+
+#col5:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 5";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col4:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 4";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col3:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 3";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col2:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 2";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 1";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#droppable1 {
+min-height: 50px;
+    
+}
+
+#droppable1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Container";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    
+}
+
+.coldrop:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+
+.coldrop{
+      border: 1px dashed #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+.dope{
+        border: 1px dashed #ff0000;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+#delete{
+      font-size: 0.5em;
+      opacity: 0.4;
+}
+
+.remove{
+    width: 12%;
+    /* margin-left: 223px; */
+    /* margin-top: -79px; */
+    position: absolute;
+    left: 541px;
+    top: -11px;
+    /* height: 6px; */
+}
+
+.col1{
+  height: 60px;
+  background-color: blue; 
+  margin-left: 3px;
+}
+
+.column{
+margin-left: -50px;
+    height: 60px;
+}
+
+#col12{
+  min-height: 50px;
+      margin-top: 20px;
+}
+
+#zxc{
+    height: 277px;
+    width: 92%;
+    overflow: hidden;
+}
+
+#tabsMenu{
+    width: 100%;
+    float: right; 
+}
+
+.next-group{
+    margin-left: 155px;
+    margin-top: -37px;
+}
+
+#draggable{
+    padding: 0px;
+    margin: 0px;
+    height: 276px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.panelling{
+    width: 40%;
+    float: right;
+    margin-right: -30px;
+    border: 2px solid black;
+}
+
+
+}
+
+.stageWrap{
+        width: 65%;
+        min-height: 315px;
+    float: left;
+}
+
+.stageWrap {
+    position: relative;
+    float: left;
+    width: calc(89% - 100px);
+    box-sizing: border-box;
+    transition: width .25s;
+    /* margin-right: -54px; */
+    margin-left: -29px;
+}
+
+.stageRow {
+    transition: background-color 125ms ease-in-out;
+    position: relative;
+    clear: both;
+    margin-left: 0;
+    margin-bottom: 6px;
+    background-color: #fff;
+    padding: 5px;
+    min-height: 34px;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+
+.stageRow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+ul#droppable {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+
+}
+
+@media screen and (min-width: 780px){
+
+
+
+
+h5 {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.next-group{
+  display: inline-block;
+    float: left;
+}
+
+.prev-group{
+      display: inline-block;
+    float: left;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.control-panel{
+      vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+        margin: 0px;
+    padding: 0px;
+}
+
+.control-panel>li:first-child {
+    border-top-right-radius: 0;
+}
+
+.field-control {
+    cursor: move;
+    list-style: none;
+    margin: -1px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.field-control button {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.panels{
+  height: 135px;
+}
+
+
+.rowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.rowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.rowEdit {
+    padding-top: 2rem;
+}
+
+.groupConfig {
+    display: none;
+    padding: .5rem;
+}
+
+.stageColumn {
+    transition: background-color 125ms ease-in-out,box-shadow 125ms,width .25s;
+    position: relative;
+    background-color: #fff;
+    max-width: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    will-change: width;
+}
+
+.stageColumn:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stageColumn:first-of-type {
+    border-top-right-radius: 5px;
+}
+
+
+.stageColumn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.columnsActions {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    right: 50%;
+    transform: translateX(12px);
+    z-index: 1;
+    transition: width .15s;
+}
+
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.columnsActions button{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stageColumn .resizeXHandle {
+    display: none;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    z-index: 2;
+    cursor: ew-resize;
+}
+
+.stageFields {
+    min-height: 26px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 125ms ease-in-out;
+}
+
+.fieldActions {
+    right: 0;
+    text-align: right;
+    transition: width .15s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    will-change: width;
+}
+
+.fieldEdit {
+    margin-top: 23px;
+    display: none;
+    overflow: hidden;
+}
+
+.panel-nav {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav button.prev-group {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+nav button {
+    position: absolute;
+    width: 24px;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.panel-labels {
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-labels div {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+button.next-group {
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tabbed-panels .panels {
+    transition: none;
+}
+
+.Fpanel {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+}
+
+.Fpanel {
+    background-color: #fff;
+}
+
+.propWrapper {
+    position: relative;
+    padding-right: 31px;
+    margin-bottom: 10px;
+    min-height: 28px;
+}
+
+
+.propControls, .field-edit .propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.propControls {
+    width: 28px;
+    height: 28px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.prop-inputs, .field-edit .prop-inputs .Ffield-group {
+    width: 100%;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.panelActionButtons [class^=add-] {
+    float: right;
+}
+
+       .mid {
+    height: 250px;
+}
+
+.ui-widget-header {
+    list-style: none;
+}
+
+
+
+.ui-draggable-handle {
+    float: left;
+    padding: 4px 7px 3px 0px;
+    cursor: pointer;
+    border: 1px solid #cf7cea;
+}
+
+.drop{
+  border:2px dotted #0B85A1;
+}
+
+.dropping{
+border:2px solid #0B85A1 !important;
+}
+
+.column_drop{
+      min-height: 50px;
+    border: 1px solid green;
+}
+
+#col12:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 12";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col11:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 11";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col10:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 10";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col9:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 9";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col8:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 8";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col7:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 7";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col6:after {
+    border: 1px solid #3c8e21e8;
+    border-radius: 4px 0 4px 0;
+    color: #144a92;
+    content: "Column 6";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    min-height: 50px;
+
+}
+
+#col5:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 5";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col4:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 4";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col3:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 3";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col2:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 2";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 1";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#droppable1 {
+min-height: 50px;
+    
+}
+
+#droppable1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Container";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    
+}
+
+.coldrop:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+
+.coldrop{
+      border: 1px dashed #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+.dope{
+        border: 1px dashed #ff0000;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+#delete{
+      font-size: 0.5em;
+      opacity: 0.4;
+}
+
+.remove{
+    width: 12%;
+    /* margin-left: 223px; */
+    /* margin-top: -79px; */
+    position: absolute;
+    left: 541px;
+    top: -11px;
+    /* height: 6px; */
+}
+
+.col1{
+  height: 60px;
+  background-color: blue; 
+  margin-left: 3px;
+}
+
+.column{
+margin-left: -50px;
+    height: 60px;
+}
+
+#col12{
+  min-height: 50px;
+      margin-top: 20px;
+}
+
+#zxc{
+    height: 277px;
+    width: 92%;
+    overflow: hidden;
+}
+
+#tabsMenu{
+    width: 100%;
+    float: right; 
+}
+
+.next-group{
+    margin-left: 155px;
+    margin-top: -37px;
+}
+
+#draggable{
+    padding: 0px;
+    margin: 0px;
+    height: 276px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.panelling{
+    width: 26%;
+    float: right;
+    border: 2px solid black;
+}
+
+.stageWrap{
+        width: 65%;
+        min-height: 315px;
+    float: left;
+}
+
+.stageWrap {
+    position: relative;
+    float: left;
+    width: calc(89% - 100px);
+    box-sizing: border-box;
+    transition: width .25s;
+    /* margin-right: -54px; */
+    margin-left: -29px;
+}
+    
+}
+
+@media screen and (min-width: 992px){
+
+ 
+
+h5 {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.next-group{
+  display: inline-block;
+    float: left;
+}
+
+.prev-group{
+      display: inline-block;
+    float: left;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.control-panel{
+      vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+        margin: 0px;
+    padding: 0px;
+}
+
+.control-panel>li:first-child {
+    border-top-right-radius: 0;
+}
+
+.field-control {
+    cursor: move;
+    list-style: none;
+    margin: -1px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.field-control button {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.panels{
+  height: 135px;
+}
+
+
+.rowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.rowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.rowEdit {
+    padding-top: 2rem;
+}
+
+.groupConfig {
+    display: none;
+    padding: .5rem;
+}
+
+.stageColumn {
+    transition: background-color 125ms ease-in-out,box-shadow 125ms,width .25s;
+    position: relative;
+    background-color: #fff;
+    max-width: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    will-change: width;
+}
+
+.stageColumn:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stageColumn:first-of-type {
+    border-top-right-radius: 5px;
+}
+
+
+.stageColumn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.columnsActions {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    right: 50%;
+    transform: translateX(12px);
+    z-index: 1;
+    transition: width .15s;
+}
+
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.columnsActions button{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stageColumn .resizeXHandle {
+    display: none;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    z-index: 2;
+    cursor: ew-resize;
+}
+
+.stageFields {
+    min-height: 26px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 125ms ease-in-out;
+}
+
+.fieldActions {
+    right: 0;
+    text-align: right;
+    transition: width .15s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    will-change: width;
+}
+
+.fieldEdit {
+    margin-top: 23px;
+    display: none;
+    overflow: hidden;
+}
+
+.panel-nav {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav button.prev-group {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+nav button {
+    position: absolute;
+    width: 24px;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.panel-labels {
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-labels div {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+button.next-group {
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tabbed-panels .panels {
+    transition: none;
+}
+
+.Fpanel {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+}
+
+.Fpanel {
+    background-color: #fff;
+}
+
+.propWrapper {
+    position: relative;
+    padding-right: 31px;
+    margin-bottom: 10px;
+    min-height: 28px;
+}
+
+
+.propControls, .field-edit .propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.propControls {
+    width: 28px;
+    height: 28px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.prop-inputs, .field-edit .prop-inputs .Ffield-group {
+    width: 100%;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.panelActionButtons [class^=add-] {
+    float: right;
+}
+
+       .mid {
+    height: 250px;
+}
+
+.ui-widget-header {
+    list-style: none;
+}
+
+
+
+.ui-draggable-handle {
+    float: left;
+    padding: 4px 7px 3px 0px;
+    cursor: pointer;
+    border: 1px solid #cf7cea;
+}
+
+.drop{
+  border:2px dotted #0B85A1;
+}
+
+.dropping{
+border:2px solid #0B85A1 !important;
+}
+
+.column_drop{
+      min-height: 50px;
+    border: 1px solid green;
+}
+
+#col12:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 12";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col11:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 11";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col10:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 10";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col9:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 9";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col8:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 8";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col7:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 7";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col6:after {
+    border: 1px solid #3c8e21e8;
+    border-radius: 4px 0 4px 0;
+    color: #144a92;
+    content: "Column 6";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    min-height: 50px;
+
+}
+
+#col5:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 5";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col4:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 4";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col3:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 3";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col2:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 2";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 1";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#droppable1 {
+min-height: 50px;
+    
+}
+
+#droppable1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Container";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    
+}
+
+.coldrop:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+
+.coldrop{
+      border: 1px dashed #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+.dope{
+        border: 1px dashed #ff0000;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+#delete{
+      font-size: 0.5em;
+      opacity: 0.4;
+}
+
+.remove{
+    width: 12%;
+    /* margin-left: 223px; */
+    /* margin-top: -79px; */
+    position: absolute;
+    left: 541px;
+    top: -11px;
+    /* height: 6px; */
+}
+
+.col1{
+  height: 60px;
+  background-color: blue; 
+  margin-left: 3px;
+}
+
+.column{
+margin-left: -50px;
+    height: 60px;
+}
+
+#col12{
+  min-height: 50px;
+      margin-top: 20px;
+}
+
+#zxc{
+    height: 277px;
+    width: 92%;
+    overflow: hidden;
+}
+
+#tabsMenu{
+    width: 100%;
+    float: right; 
+}
+
+.next-group{
+    margin-left: 155px;
+    margin-top: -37px;
+}
+
+#draggable{
+    padding: 0px;
+    margin: 0px;
+    height: 276px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.panelling{
+    width: 35%;
+    float: right;
+    margin-right: -30px;
+    border: 2px solid black;
+}
+
+.stageWrap{
+        width: 65%;
+        min-height: 315px;
+    float: left;
+}
+
+.stageWrap {
+    position: relative;
+    float: left;
+    width: calc(89% - 100px);
+    box-sizing: border-box;
+    transition: width .25s;
+    /* margin-right: -54px; */
+    margin-left: -29px;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+
+    
+
+h5 {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.next-group{
+  display: inline-block;
+    float: left;
+}
+
+.prev-group{
+      display: inline-block;
+    float: left;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.control-panel{
+      vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+        margin: 0px;
+    padding: 0px;
+}
+
+.control-panel>li:first-child {
+    border-top-right-radius: 0;
+}
+
+.field-control {
+    cursor: move;
+    list-style: none;
+    margin: -1px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.field-control button {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.panels{
+  height: 135px;
+}
+
+
+.rowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.rowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.rowEdit {
+    padding-top: 2rem;
+}
+
+.groupConfig {
+    display: none;
+    padding: .5rem;
+}
+
+.stageColumn {
+    transition: background-color 125ms ease-in-out,box-shadow 125ms,width .25s;
+    position: relative;
+    background-color: #fff;
+    max-width: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    will-change: width;
+}
+
+.stageColumn:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stageColumn:first-of-type {
+    border-top-right-radius: 5px;
+}
+
+
+.stageColumn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.columnsActions {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    right: 50%;
+    transform: translateX(12px);
+    z-index: 1;
+    transition: width .15s;
+}
+
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.columnsActions button{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stageColumn .resizeXHandle {
+    display: none;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    z-index: 2;
+    cursor: ew-resize;
+}
+
+.stageFields {
+    min-height: 26px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 125ms ease-in-out;
+}
+
+.fieldActions {
+    right: 0;
+    text-align: right;
+    transition: width .15s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    will-change: width;
+}
+
+.fieldEdit {
+    margin-top: 23px;
+    display: none;
+    overflow: hidden;
+}
+
+.panel-nav {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav button.prev-group {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+nav button {
+    position: absolute;
+    width: 24px;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.panel-labels {
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-labels div {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+button.next-group {
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tabbed-panels .panels {
+    transition: none;
+}
+
+.Fpanel {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+}
+
+.Fpanel {
+    background-color: #fff;
+}
+
+.propWrapper {
+    position: relative;
+    padding-right: 31px;
+    margin-bottom: 10px;
+    min-height: 28px;
+}
+
+
+.propControls, .field-edit .propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.propControls {
+    width: 28px;
+    height: 28px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.prop-inputs, .field-edit .prop-inputs .Ffield-group {
+    width: 100%;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.panelActionButtons [class^=add-] {
+    float: right;
+}
+
+       .mid {
+    height: 250px;
+}
+
+.ui-widget-header {
+    list-style: none;
+}
+
+
+
+.ui-draggable-handle {
+    float: left;
+    padding: 4px 7px 3px 0px;
+    cursor: pointer;
+    border: 1px solid #cf7cea;
+}
+
+.drop{
+  border:2px dotted #0B85A1;
+}
+
+.dropping{
+border:2px solid #0B85A1 !important;
+}
+
+.column_drop{
+      min-height: 50px;
+    border: 1px solid green;
+}
+
+#col12:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 12";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col11:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 11";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col10:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 10";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col9:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 9";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col8:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 8";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col7:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 7";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col6:after {
+    border: 1px solid #3c8e21e8;
+    border-radius: 4px 0 4px 0;
+    color: #144a92;
+    content: "Column 6";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    min-height: 50px;
+
+}
+
+#col5:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 5";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col4:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 4";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col3:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 3";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col2:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 2";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 1";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#droppable1 {
+min-height: 50px;
+    
+}
+
+#droppable1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Container";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    
+}
+
+.coldrop:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+
+.coldrop{
+      border: 1px dashed #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+.dope{
+        border: 1px dashed #ff0000;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+#delete{
+      font-size: 0.5em;
+      opacity: 0.4;
+}
+
+.remove{
+    width: 12%;
+    /* margin-left: 223px; */
+    /* margin-top: -79px; */
+    position: absolute;
+    left: 541px;
+    top: -11px;
+    /* height: 6px; */
+}
+
+.col1{
+  height: 60px;
+  background-color: blue; 
+  margin-left: 3px;
+}
+
+.column{
+margin-left: -50px;
+    height: 60px;
+}
+
+#col12{
+  min-height: 50px;
+      margin-top: 20px;
+}
+
+#zxc{
+    height: 277px;
+    width: 92%;
+    overflow: hidden;
+}
+
+#tabsMenu{
+    width: 100%;
+    float: right; 
+}
+
+.next-group{
+    margin-left: 155px;
+    margin-top: -37px;
+}
+
+#draggable{
+    padding: 0px;
+    margin: 0px;
+    height: 276px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.panelling{
+    width: 20%;
+    float: right;
+    border: 2px solid black;
+        margin-right: 2px;
+}
+
+.stageWrap{
+        width: 65%;
+        min-height: 315px;
+    float: left;
+}
+
+.stageWrap {
+    position: relative;
+    float: left;
+    width: calc(85% - 100px);
+    box-sizing: border-box;
+    transition: width .25s;
+    /* margin-right: -54px; */
+    margin-left: -29px;
+}
+
+.modLi{
+width: 100%;
+}
+
+}
+
+@media screen and (min-width: 1500px){
+
+
+
+h5 {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.next-group{
+  display: inline-block;
+    float: left;
+}
+
+.prev-group{
+      display: inline-block;
+    float: left;
+}
+
+.panels-wrap h5 {
+    margin: 0;
+    padding: .55em 0;
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+}
+
+.control-panel{
+      vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #ccc;
+        margin: 0px;
+    padding: 0px;
+}
+
+.control-panel>li:first-child {
+    border-top-right-radius: 0;
+}
+
+.field-control {
+    cursor: move;
+    list-style: none;
+    margin: -1px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.field-control button {
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1.8em;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0 none;
+    text-align: left;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.panels{
+  height: 135px;
+}
+
+
+.rowActions {
+    width: 24px;
+    height: 24px;
+    left: -23px;
+    text-align: right;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transition: height .15s ease-in-out;
+    white-space: normal;
+    border: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.rowActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.rowEdit {
+    padding-top: 2rem;
+}
+
+.groupConfig {
+    display: none;
+    padding: .5rem;
+}
+
+.stageColumn {
+    transition: background-color 125ms ease-in-out,box-shadow 125ms,width .25s;
+    position: relative;
+    background-color: #fff;
+    max-width: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: auto;
+    flex: auto;
+    will-change: width;
+}
+
+.stageColumn:last-of-type {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stageColumn:first-of-type {
+    border-top-right-radius: 5px;
+}
+
+
+.stageColumn{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stageColumn:before {
+    transition-property: height;
+    transition-duration: .15s;
+    padding: 0 10px;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%,-100%);
+    width: auto;
+    height: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.columnsActions {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    right: 50%;
+    transform: translateX(12px);
+    z-index: 1;
+    transition: width .15s;
+}
+
+
+.groupActions {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.columnsActions button{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.groupActions button {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    border: 0 none;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stageColumn .resizeXHandle {
+    display: none;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 16px;
+    z-index: 2;
+    cursor: ew-resize;
+}
+
+.stageFields {
+    min-height: 26px;
+    position: relative;
+    padding: 5px;
+    transition: background-color 125ms ease-in-out;
+}
+
+.fieldActions {
+    right: 0;
+    text-align: right;
+    transition: width .15s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    will-change: width;
+}
+
+.fieldEdit {
+    margin-top: 23px;
+    display: none;
+    overflow: hidden;
+}
+
+.panel-nav {
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav button.prev-group {
+    left: 0;
+    top: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+nav button {
+    position: absolute;
+    width: 24px;
+    color: #000;
+    height: 100%;
+    padding: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.panel-labels {
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.panel-labels div {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+button.next-group {
+    right: 0;
+    top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tabbed-panels .panels {
+    transition: none;
+}
+
+.Fpanel {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
+}
+
+.Fpanel {
+    background-color: #fff;
+}
+
+.propWrapper {
+    position: relative;
+    padding-right: 31px;
+    margin-bottom: 10px;
+    min-height: 28px;
+}
+
+
+.propControls, .field-edit .propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.propControls {
+    width: 28px;
+    height: 28px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.propInputs {
+    transition: width .15s;
+    will-change: width;
+}
+
+.prop-inputs, .field-edit .prop-inputs .Ffield-group {
+    width: 100%;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: bottom;
+}
+
+.panelActionButtons [class^=add-] {
+    float: right;
+}
+
+
+       .mid {
+    height: 250px;
+}
+
+.ui-widget-header {
+    list-style: none;
+}
+
+
+
+.ui-draggable-handle {
+    float: left;
+    padding: 4px 7px 3px 0px;
+    cursor: pointer;
+    border: 1px solid #cf7cea;
+}
+
+.drop{
+  border:2px dotted #0B85A1;
+}
+
+.dropping{
+border:2px solid #0B85A1 !important;
+}
+
+.column_drop{
+      min-height: 50px;
+    border: 1px solid green;
+}
+
+#col12:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 12";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col11:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 11";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col10:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 10";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col9:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 9";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col8:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 8";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col7:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 7";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col6:after {
+    border: 1px solid #3c8e21e8;
+    border-radius: 4px 0 4px 0;
+    color: #144a92;
+    content: "Column 6";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    min-height: 50px;
+
+}
+
+#col5:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 5";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col4:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 4";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col3:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 3";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col2:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 2";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#col1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column 1";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+
+}
+
+#droppable1 {
+min-height: 50px;
+    
+}
+
+#droppable1:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Container";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+    
+}
+
+.coldrop:after {
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Column";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+
+.coldrop{
+      border: 1px dashed #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+.dope{
+        border: 1px dashed #ff0000;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 24px;
+    position: relative;
+}
+
+#delete{
+      font-size: 0.5em;
+      opacity: 0.4;
+}
+
+.remove{
+    width: 12%;
+    /* margin-left: 223px; */
+    /* margin-top: -79px; */
+    position: absolute;
+    left: 541px;
+    top: -11px;
+    /* height: 6px; */
+}
+
+.col1{
+  height: 60px;
+  background-color: blue; 
+  margin-left: 3px;
+}
+
+.column{
+margin-left: -50px;
+    height: 60px;
+}
+
+#col12{
+  min-height: 50px;
+      margin-top: 20px;
+}
+
+#zxc{
+    height: 277px;
+    width: 92%;
+    overflow: hidden;
+}
+
+#tabsMenu{
+    width: 100%;
+    float: right; 
+}
+
+.next-group{
+    margin-left: 155px;
+    margin-top: -37px;
+}
+
+#draggable{
+    padding: 0px;
+    margin: 0px;
+    height: 276px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.panelling{
+    width: 10%;
+    float: right;
+    margin-right: 112px;
+    border: 2px solid black;
+}
+
+.stageWrap{
+        width: 65%;
+        min-height: 315px;
+    float: left;
+}
+
+.stageWrap {
+    position: relative;
+    float: left;
+    width: calc(85% - 100px);
+    box-sizing: border-box;
+    transition: width .25s;
+    /* margin-right: -54px; */
+    margin-left: -29px;
+}
+
+
+    
+}

@@ -1,0 +1,367 @@
+
+.ds_icon{
+    background-image: url(../../WIMedia/Img/icons/features/wheelaccess.jpg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.dt_icon{
+  background-image: url(../../WIMedia/Img/icons/features/disabled-toilet-signs-77026.jpg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.wc_icon{
+  background-image: url(../../WIMedia/Img/icons/features/wc.jpg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+
+.bar_icon{
+  background-image: url(../../WIMedia/Img/icons/features/bar.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.hearing_icon{
+  background-image: url(../../WIMedia/Img/icons/features/_-37-512.jpg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.dp_icon{
+  background-image: url(../../WIMedia/Img/icons/features/parking-for-disabled-persons-sign_318-51215.jpg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.dogs_icon{
+  background-image: url(../../WIMedia/Img/icons/features/avustavat_koirat.jpg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.stairs_icon{
+  background-image: url(../../WIMedia/Img/icons/features/stairs.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    float: left;
+}
+
+.wheels{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -73px;
+    /* background-size: cover; */
+        width: 94%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsToliet{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 181px -36px;
+    /* background-size: cover; */
+        width: 94%;
+    height: 33px;
+    float: left;
+}
+
+.toliets{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -36px;
+       width: 94%;
+    height: 33px;
+    float: left;
+}
+
+.loop{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px 0px;
+        width: 94%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsparking{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px -73px;
+        width: 94%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsdogs{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px 0px;
+        width: 94%;
+    height: 33px;
+    float: left;
+}
+
+.btn-group{
+	width: 86%;
+}
+
+.btn-group-features{
+    width: 45%;
+}
+
+.btn-group-edit-features{
+    width: 100%;
+    margin-left: 41px;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+   color: #fffdfd !important;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#installed_features{
+        margin-left: 25px;
+    margin-top: 20px;
+}
+
+#feature-list{
+    color: black;
+    width: 80%;
+    height: 51px;
+}
+.feature-help-block {
+display: block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: #252525;
+    font-size: 10px;
+    width: 100%;
+    float: left;
+    height: 45px;
+}
+
+.feature-install-help-block{
+        display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: #737373;
+    font-size: 14px;
+    width: 66%;
+    float: right;
+}
+.form-group {
+    margin-bottom: 4px!important;
+}
+
+
+@media (min-width: 481px) {
+
+#feature-list{
+    color: black;
+    width: 55%;
+    height: 51px;
+}
+    .wheels{
+   background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -73px;
+    width: 29%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsToliet{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 181px -36px;
+    width: 29%;
+    height: 33px;
+    float: left;
+}
+
+.toliets{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -36px;
+    width: 29%;
+    height: 33px;
+    float: left;
+}
+
+.loop{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px 0px;
+    width: 29%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsparking{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px -73px;
+    width: 29%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsdogs{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px 0px;
+    width: 29%;
+    height: 33px;
+    float: left;
+}
+}
+
+@media (min-width: 769px){
+
+#feature-list{
+    color: black;
+    width: 55%;
+    height: 51px;
+}
+    .wheels{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -73px;
+    width: 40%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsToliet{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 181px -36px;
+    width: 40%;
+    height: 33px;
+    float: left;
+}
+
+.toliets{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -36px;
+    width: 40%;
+    height: 33px;
+    float: left;
+}
+
+.loop{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px 0px;
+    width: 40%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsparking{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px -73px;
+    width: 40%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsdogs{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px 0px;
+    width: 40%;
+    height: 33px;
+    float: left;
+}
+}
+
+@media (min-width: 1200px){
+
+#feature-list{
+    color: black;
+    width: 55%;
+    height: 51px;
+}
+    .wheels{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -73px;
+    width: 16%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsToliet{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 181px -36px;
+    width: 16%;
+    height: 33px;
+    float: left;
+}
+
+.toliets{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px -36px;
+    width: 16%;
+    height: 33px;
+    float: left;
+}
+
+.loop{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px 0px;
+    width: 16%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsparking{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 256px -73px;
+    width: 16%;
+    height: 33px;
+    float: left;
+}
+
+.wheelsdogs{
+    background-image: url(../../../WIAdmin/WIMedia/Img/icons/features/disability.jpg);
+    background-position: 294px 0px;
+    width: 16%;
+    height: 33px;
+    float: left;
+}
+
+
+.theatre_change_photo_link{
+margin-top: -3%;
+    margin-left: -26%;
+    background-color: #ffffff5c;
+    color: #313131;
+}
+}

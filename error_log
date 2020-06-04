@@ -1,0 +1,84 @@
+
+[29-Mar-2018 11:45:20 UTC] PHP Warning:  require_once(WIClass/shows.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:45:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIClass/shows.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:45:55 UTC] PHP Warning:  require_once(WIClass/shows.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:45:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIClass/shows.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:53:05 UTC] PHP Warning:  require_once(WIClass/shows.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:53:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIClass/shows.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:55:13 UTC] PHP Warning:  require_once(WIClass/shows.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 11:55:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIClass/shows.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 12:00:01 UTC] PHP Warning:  require_once(WIClass/shows.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[29-Mar-2018 12:00:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIClass/shows.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/init.php on line 16
+[25-Jun-2018 06:54:21 UTC] PHP Warning:  require_once(WIAdmin/WIModule/Theatres/Theatres.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[25-Jun-2018 06:54:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/Theatres/Theatres.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[25-Jun-2018 07:06:46 UTC] PHP Notice:  Undefined variable: page in /home/warner/public_html/The_Stage_DB/WIInc/WI_StartUp.php on line 5
+[25-Jun-2018 07:06:46 UTC] PHP Notice:  Undefined variable: page in /home/warner/public_html/The_Stage_DB/WIInc/WI_StartUp.php on line 6
+[25-Jun-2018 07:06:46 UTC] PHP Notice:  Undefined variable: page in /home/warner/public_html/The_Stage_DB/WIInc/WI_StartUp.php on line 7
+[25-Jun-2018 07:06:47 UTC] PHP Warning:  Missing argument 4 for WIMaintenace::visitors_log(), called in /home/warner/public_html/The_Stage_DB/contact_us.php on line 10 and defined in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIMaintenace.php on line 140
+[25-Jun-2018 07:06:47 UTC] PHP Warning:  Missing argument 5 for WIMaintenace::visitors_log(), called in /home/warner/public_html/The_Stage_DB/contact_us.php on line 10 and defined in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIMaintenace.php on line 140
+[25-Jun-2018 07:06:47 UTC] PHP Warning:  Missing argument 6 for WIMaintenace::visitors_log(), called in /home/warner/public_html/The_Stage_DB/contact_us.php on line 10 and defined in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIMaintenace.php on line 140
+[25-Jun-2018 07:06:47 UTC] PHP Notice:  Undefined variable: ref in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIMaintenace.php on line 143
+[25-Jun-2018 07:06:47 UTC] PHP Warning:  require_once(WIAdmin/WIModule/contents/contents.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 39
+[25-Jun-2018 07:06:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/contents/contents.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 39
+[25-Jun-2018 07:09:26 UTC] PHP Warning:  require_once(WIAdmin/WIModule/Contact Us/Contact Us.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[25-Jun-2018 07:09:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/Contact Us/Contact Us.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[25-Jun-2018 07:10:55 UTC] PHP Warning:  require_once(WIAdmin/WIModule//.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[25-Jun-2018 07:10:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule//.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[25-Jun-2018 22:02:14 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WITheatres.php on line 1064
+[25-Jun-2018 22:07:41 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WITheatres.php on line 1143
+[25-Jun-2018 22:11:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WITheatres.php on line 1150
+[25-Jun-2018 22:20:03 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WITheatres.php on line 1148
+[06-Jul-2018 09:17:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIActor.php on line 384
+[06-Jul-2018 09:32:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 951
+[06-Jul-2018 10:31:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIActor.php on line 394
+[06-Jul-2018 18:27:22 UTC] PHP Parse error:  syntax error, unexpected ''/'' (T_CONSTANT_ENCAPSED_STRING) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 943
+[06-Jul-2018 19:09:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 972
+[06-Jul-2018 19:13:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIActor.php on line 115
+[06-Jul-2018 19:18:57 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 797
+[08-Jul-2018 21:41:49 UTC] PHP Warning:  require_once(WIAdmin/WIModule/FAQ/FAQ.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[08-Jul-2018 21:41:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/FAQ/FAQ.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[08-Jul-2018 21:41:55 UTC] PHP Warning:  require_once(WIAdmin/WIModule/FAQ/FAQ.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[08-Jul-2018 21:41:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/FAQ/FAQ.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[10-Jul-2018 13:47:44 UTC] PHP Warning:  require_once(WIAdmin/WIModule/FAQ/FAQ.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[10-Jul-2018 13:47:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/FAQ/FAQ.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 53
+[17-Jul-2018 09:35:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WITheatres.php on line 1209
+[17-Jul-2018 09:37:11 UTC] PHP Parse error:  syntax error, unexpected '$Pagin' (T_VARIABLE), expecting function (T_FUNCTION) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WITheatres.php on line 1201
+[18-Jul-2018 08:37:38 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 753
+[18-Jul-2018 08:54:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 746
+[18-Jul-2018 08:55:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 758
+[18-Jul-2018 10:33:45 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 755
+[18-Jul-2018 10:35:55 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 752
+[18-Jul-2018 10:44:34 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIShows.php on line 752
+[18-Jul-2018 16:14:48 UTC] PHP Warning:  require_once(WIAdmin/WIModule/FAQ/FAQ.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 57
+[18-Jul-2018 16:14:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/FAQ/FAQ.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 57
+[18-Jul-2018 20:05:40 UTC] PHP Warning:  require_once(WIAdmin/WIModule/FAQ/FAQ.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 57
+[18-Jul-2018 20:05:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/FAQ/FAQ.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 57
+[18-Jul-2018 20:05:44 UTC] PHP Warning:  require_once(WIAdmin/WIModule/FAQ/FAQ.php): failed to open stream: No such file or directory in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 57
+[18-Jul-2018 20:05:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'WIAdmin/WIModule/FAQ/FAQ.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIModules.php on line 57
+[19-Jul-2018 22:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WIPermissions() in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIUser.php:28
+Stack trace:
+#0 /home/warner/public_html/The_Stage_DB/WICore/init.php(19): WIUser->__construct('1')
+#1 /home/warner/public_html/The_Stage_DB/WIInc/WI_StartUp.php(3): include_once('/home/warner/pu...')
+#2 /home/warner/public_html/The_Stage_DB/shows.php(4): include_once('/home/warner/pu...')
+#3 {main}
+  thrown in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIUser.php on line 28
+[19-Jul-2018 22:41:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 14
+[19-Jul-2018 22:42:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WIPermissions() in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIUser.php:28
+Stack trace:
+#0 /home/warner/public_html/The_Stage_DB/WICore/init.php(19): WIUser->__construct('1')
+#1 /home/warner/public_html/The_Stage_DB/WIInc/WI_StartUp.php(3): include_once('/home/warner/pu...')
+#2 /home/warner/public_html/The_Stage_DB/shows.php(4): include_once('/home/warner/pu...')
+#3 {main}
+  thrown in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIUser.php on line 28
+[20-Jul-2018 04:55:40 UTC] PHP Notice:  Array to string conversion in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIdb.php on line 44
+[20-Jul-2018 04:55:40 UTC] PHP Notice:  Undefined index: create in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 16
+[20-Jul-2018 05:11:45 UTC] PHP Notice:  Array to string conversion in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIdb.php on line 44
+[20-Jul-2018 05:11:45 UTC] PHP Notice:  Undefined index: Shows in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 16
+[20-Jul-2018 05:12:48 UTC] PHP Notice:  Array to string conversion in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIdb.php on line 44
+[20-Jul-2018 05:12:48 UTC] PHP Notice:  Undefined index: Shows in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 16
+[20-Jul-2018 05:13:41 UTC] PHP Notice:  Array to string conversion in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIdb.php on line 44
+[20-Jul-2018 05:13:41 UTC] PHP Notice:  Undefined index: create in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 16
+[20-Jul-2018 05:15:33 UTC] PHP Notice:  Array to string conversion in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIdb.php on line 44
+[20-Jul-2018 05:15:33 UTC] PHP Notice:  Undefined index: create in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 16
+[20-Jul-2018 05:16:18 UTC] PHP Notice:  Array to string conversion in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIdb.php on line 44
+[20-Jul-2018 05:16:18 UTC] PHP Notice:  Undefined index: create in /home/warner/public_html/The_Stage_DB/WICore/WIClass/WIPermissions.php on line 16

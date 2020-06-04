@@ -1,0 +1,116 @@
+   
+   <div class="row">
+                  <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4">
+        <div class="flipcard-' . $show['id'] . '">
+        <span class="btn editing-' . $show['id'] . '">Edit</span>
+        <span class="btn show-delete" onclick="WIShow.delete(`' . $show['id'] . '`);">Delete</span>
+        <div class="back">
+            <div class="top-bit" id="' . $show['id'] . '">
+      <div class="row">
+        <div class="col-xs-4">
+             <figure class="post-image" id="show_Image">            
+          <div id="dragandrophandler-' . $show['id'] . '" class="dragandrophandler">Drag & Drop Files Here</div>
+        <div class="img-preview-' . $show['id'] . '" id="preview-' . $show['id'] . '"></div>
+        <div class="upload-msg" id="status"></div>
+                <input type="hidden" name="supload" id="supload" class="supload" value="shows">
+      </figure>
+
+        </div>
+        <div class="col-xs-6">
+          <h3 class="showsName"><blockquote>
+        <p><input type="text" class="name" name="name" id="name-' . $show['id'] . '" value="'. $show['name'].'" placeholder="show Name"></p>
+        
+      </blockquote></h3>
+        </div>
+      </div>
+          </div>
+          <div class="middle-bit-show">
+          
+
+            </div>
+                    <div class="end-bit">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <button id="submit" type="button" onclick="WIshow.editshows(`' . $show['id'] . '`);" class="btn btn-sm btn-smooth btn-custom" data-plan="free">Save</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  
+        
+         <div class="front text-center">
+          <div class="top-bit">
+      <div class="row">
+        <div class="col-xs-12">
+        <h3 class="showsName"><blockquote>
+        <p>'. $show['name'].'</p>
+        
+      </blockquote></h3>
+              </blockquote></h3>
+      <h3 class="showsTheatre"><blockquote>
+        <p>'. $show['theatre'].'</p>
+        
+      </blockquote></h3>
+        </div>
+       
+      </div>
+          </div>
+          <div class="middle-bit-show">
+                    <div class="row">
+                      <div class="col-xs-4">
+          <span class="off-grey-show">
+    <img class="img-responsive" src="WIAdmin/WIMedia/Img/shows/'. $photo.'" style="border-radius: 36px;">
+    </span>
+      
+        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <h3 class="showsLocation"><blockquote>
+        <p>'; echo $this->theatre->getLocation($show['id']); echo'</p></blockquote></h3>
+        
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="end-bit">
+                    <div class="row">
+                      <div class="col-xs-12">
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+
+
+
+
+    <div id="products" class="row list-group">
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        Product title</h4>
+                    <p class="group inner list-group-item-text">
+                        Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="lead">
+                                $21.000</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <a class="btn btn-success" href="http://www.jquery2dotnet.com">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>

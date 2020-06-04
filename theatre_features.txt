@@ -1,0 +1,22 @@
+features
+
+feature_id
+feature
+feature name
+feature_description
+feature_icon
+
+
+
+wi_theatre_features
+
+feature_id
+theatre_id
+wheelchair_access
+disabled_toliets
+Toliets
+bar
+sound hearing assistance sytem
+disabled parking
+guide dogs
+stairs

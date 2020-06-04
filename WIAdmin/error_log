@@ -1,0 +1,19 @@
+
+[15-Jul-2018 21:31:46 UTC] PHP Notice:  Constant INCLUDE_CHECK already defined in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php on line 2
+[15-Jul-2018 21:31:46 UTC] PHP Notice:  Undefined variable: admin in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php on line 5
+[15-Jul-2018 21:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isAdmin() on null in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php:5
+Stack trace:
+#0 /home/warner/public_html/The_Stage_DB/WIAdmin/WICore/WIClass/WI.php(26): include_once()
+#1 /home/warner/public_html/The_Stage_DB/WIAdmin/WICore/init.php(7): require('/home/warner/pu...')
+#2 /home/warner/public_html/The_Stage_DB/WIAdmin/dashboard.php(3): include_once('/home/warner/pu...')
+#3 {main}
+  thrown in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php on line 5
+[15-Jul-2018 21:33:20 UTC] PHP Notice:  Constant INCLUDE_CHECK already defined in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php on line 2
+[15-Jul-2018 21:33:20 UTC] PHP Notice:  Undefined variable: admin in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php on line 5
+[15-Jul-2018 21:33:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isAdmin() on null in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php:5
+Stack trace:
+#0 /home/warner/public_html/The_Stage_DB/WIAdmin/WICore/WIClass/WI.php(26): include_once()
+#1 /home/warner/public_html/The_Stage_DB/WIAdmin/WICore/init.php(7): require('/home/warner/pu...')
+#2 /home/warner/public_html/The_Stage_DB/WIAdmin/dashboard.php(3): include_once('/home/warner/pu...')
+#3 {main}
+  thrown in /home/warner/public_html/The_Stage_DB/WIAdmin/WIPermissions.php on line 5
