@@ -3,15 +3,15 @@ require_once "WIClass/WILib.php";
 require_once "WIClass/WISettings.php";
 //DATABASE CONFIGURATION
 
-define("HOST", "mysql3001.mochahost.com"); 
+define("HOST", "**********"); 
 
 define("TYPE", "mysql"); 
 
-define("USER", "warner_stage_db"); 
+define("USER", "*******"); 
 
-define("PASS", "stage1?"); 
+define("PASS", "********"); 
 
-define("NAME", "warner_stage_db"); 
+define("NAME", "***********"); 
 
 $WIC = WILib::getInstance();
 $config =  new WISettings();
